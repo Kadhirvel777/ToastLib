@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494BB697289A7622005C2420 /* CustomAlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BB696289A7622005C2420 /* CustomAlertDialog.swift */; };
+		494BB699289A76F7005C2420 /* CustomAlertDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494BB698289A76F7005C2420 /* CustomAlertDialog.xib */; };
 		49D72A9428990E390061CE2F /* ToastLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D72A9328990E390061CE2F /* ToastLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49D72A9B28990F2C0061CE2F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D72A9A28990F2C0061CE2F /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		494BB696289A7622005C2420 /* CustomAlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertDialog.swift; sourceTree = "<group>"; };
+		494BB698289A76F7005C2420 /* CustomAlertDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertDialog.xib; sourceTree = "<group>"; };
 		49D72A9028990E390061CE2F /* ToastLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToastLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D72A9328990E390061CE2F /* ToastLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToastLib.h; sourceTree = "<group>"; };
 		49D72A9A28990F2C0061CE2F /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -28,6 +32,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		494BB69A289A7710005C2420 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				494BB696289A7622005C2420 /* CustomAlertDialog.swift */,
+				494BB698289A76F7005C2420 /* CustomAlertDialog.xib */,
+			);
+			path = CustomAlert;
+			sourceTree = "<group>";
+		};
 		49D72A8628990E390061CE2F = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +62,7 @@
 			children = (
 				49D72A9328990E390061CE2F /* ToastLib.h */,
 				49D72A9A28990F2C0061CE2F /* Toast.swift */,
+				494BB69A289A7710005C2420 /* CustomAlert */,
 			);
 			path = ToastLib;
 			sourceTree = "<group>";
@@ -123,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494BB699289A76F7005C2420 /* CustomAlertDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D72A9B28990F2C0061CE2F /* Toast.swift in Sources */,
+				494BB697289A7622005C2420 /* CustomAlertDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
