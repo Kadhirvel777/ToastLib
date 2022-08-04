@@ -32,15 +32,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		494BB69A289A7710005C2420 /* CustomAlert */ = {
-			isa = PBXGroup;
-			children = (
-				494BB696289A7622005C2420 /* CustomAlertDialog.swift */,
-				494BB698289A76F7005C2420 /* CustomAlertDialog.xib */,
-			);
-			path = CustomAlert;
-			sourceTree = "<group>";
-		};
 		49D72A8628990E390061CE2F = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +53,8 @@
 			children = (
 				49D72A9328990E390061CE2F /* ToastLib.h */,
 				49D72A9A28990F2C0061CE2F /* Toast.swift */,
-				494BB69A289A7710005C2420 /* CustomAlert */,
+				494BB696289A7622005C2420 /* CustomAlertDialog.swift */,
+				494BB698289A76F7005C2420 /* CustomAlertDialog.xib */,
 			);
 			path = ToastLib;
 			sourceTree = "<group>";
